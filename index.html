@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 
-<html lang="hy">
+<html lang="en">
 <head>
-<link rel="icon" href="favicon2.ico" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="../favicon2.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Կորտեքս Սենթինել - Իրական «SOC»</title>
+<title>Cortex Sentinel - Real SOC</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&amp;family=Noto+Sans:wght@300;400;500;600;700;800&amp;family=Noto+Sans+Armenian:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="./assets/site.css?v=1776365205128"/>
+<link rel="stylesheet" href="../assets/site.css?v=1776365205128"/>
 </head>
-<body data-lang="hy">
+<body data-lang="en">
 <div class="cursor" id="cursor"></div>
 <div class="cursor-ring" id="cursorRing"></div>
-<a aria-label="Վերադառնալ սկիզբ" class="back-to-top" href="#" id="backToTop">↑</a>
+<a aria-label="Back to top" class="back-to-top" href="#" id="backToTop">&uarr;</a>
 <div class="contact-hub" id="contactHub">
 <div class="contact-hub-panel" id="contactHubPanel" hidden>
 <div class="contact-hub-kicker" data-i18n="contact_hub_kicker">LIVE CHAT + WHATSAPP/TELEGRAM/FACEBOOK</div>
 <div class="contact-hub-actions">
-<button aria-label="Բացել Live Chat" class="contact-hub-action is-live" id="contactHubLiveChat" title="Բացել Live Chat" type="button"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M5.5 18.5 4 21l3.35-1.43a8.5 8.5 0 1 0-1.85-1.07Z"></path><path d="M8 10h8M8 13.5h5"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_live_title">Live Chat</span></button>
-<a aria-label="Բացել WhatsApp" class="contact-hub-action is-whatsapp" href="https://wa.me/37498770098" id="contactHubWhatsApp" rel="noopener noreferrer" target="_blank" title="Բացել WhatsApp"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M12 4.75a7.25 7.25 0 0 1 6.29 10.86A7.25 7.25 0 0 1 12 19.25c-1.13 0-2.2-.26-3.16-.74L4.75 19.25l.74-4.09A7.25 7.25 0 0 1 12 4.75Z"></path><path d="M14.85 14.05c-.3.3-.75.4-1.15.28a7 7 0 0 1-4.04-4.03c-.12-.4-.02-.85.28-1.15l.47-.47c.18-.18.47-.22.69-.08l.96.58c.23.14.32.43.22.68l-.28.68a5.48 5.48 0 0 0 1.58 1.58l.68-.28c.25-.1.54-.01.68.22l.58.96c.14.22.1.51-.08.69l-.47.47Z" fill="currentColor" stroke="none"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_whatsapp_title">WhatsApp</span></a>
-<span aria-label="Telegram-ի հղումը շուտով կլինի" class="contact-hub-action is-telegram is-disabled" id="contactHubTelegram" role="link" title="Telegram-ի հղումը շուտով կլինի"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M20.5 4.5 3.8 11.1c-.85.34-.8 1.56.08 1.82l4.36 1.3 1.68 4.65c.28.77 1.3.92 1.8.27l2.36-3.05 4.2 3.1c.72.53 1.75.12 1.91-.76L22 5.86c.16-.88-.68-1.69-1.5-1.36Z"></path><path d="m8.25 14.2 7.48-5.35"></path></svg></span><span class="contact-hub-action-title">Telegram</span></span>
-<a aria-label="Բացել Facebook" class="contact-hub-action is-facebook" href="https://www.facebook.com/profile.php?id=61573481100981" id="contactHubFacebook" rel="noopener noreferrer" target="_blank" title="Բացել Facebook"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M14 8.5h2V5h-2.55C10.95 5 9.5 6.62 9.5 9.22V11H7v3.5h2.5V20H13v-5.5h2.6L16 11h-3V9.25c0-.5.32-.75 1-.75Z"></path></svg></span><span class="contact-hub-action-title">Facebook</span></a>
-<a class="contact-hub-action is-email" href="mailto:info@cortexsentinel.am" id="contactHubEmail" data-i18n-aria="contact_hub_email" data-i18n-title="contact_hub_email"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><rect x="3.75" y="6" width="16.5" height="12" rx="2.5"></rect><path d="m5 8 7 5 7-5"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_email">Էլ. փոստ</span></a>
-<a class="contact-hub-action is-call" href="tel:+37498770098" id="contactHubCall" data-i18n-aria="contact_hub_call" data-i18n-title="contact_hub_call"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M6.62 5.1 8.7 4.2a1.45 1.45 0 0 1 1.85.7l1.03 2.06c.3.6.15 1.33-.36 1.76l-1.1.93a9.7 9.7 0 0 0 4.23 4.23l.93-1.1c.43-.51 1.16-.66 1.76-.36l2.06 1.03c.68.34.98 1.14.7 1.85l-.9 2.08c-.3.7-1.02 1.12-1.78 1.02C10.7 17.58 6.42 13.3 5.6 6.88c-.1-.76.32-1.48 1.02-1.78Z"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_call">Զանգ</span></a>
-<a class="contact-hub-action is-form" href="#contact-form" data-i18n-aria="contact_hub_form" data-i18n-title="contact_hub_form"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M7 4.75h10A2.25 2.25 0 0 1 19.25 7v10A2.25 2.25 0 0 1 17 19.25H7A2.25 2.25 0 0 1 4.75 17V7A2.25 2.25 0 0 1 7 4.75Z"></path><path d="M8.5 9h7M8.5 12h7M8.5 15h4"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_form">Հայտ</span></a>
+<button aria-label="Open Live Chat" class="contact-hub-action is-live" id="contactHubLiveChat" title="Open Live Chat" type="button"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M5.5 18.5 4 21l3.35-1.43a8.5 8.5 0 1 0-1.85-1.07Z"></path><path d="M8 10h8M8 13.5h5"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_live_title">Live Chat</span></button>
+<a aria-label="Open WhatsApp" class="contact-hub-action is-whatsapp" href="https://wa.me/37498770098" id="contactHubWhatsApp" rel="noopener noreferrer" target="_blank" title="Open WhatsApp"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M12 4.75a7.25 7.25 0 0 1 6.29 10.86A7.25 7.25 0 0 1 12 19.25c-1.13 0-2.2-.26-3.16-.74L4.75 19.25l.74-4.09A7.25 7.25 0 0 1 12 4.75Z"></path><path d="M14.85 14.05c-.3.3-.75.4-1.15.28a7 7 0 0 1-4.04-4.03c-.12-.4-.02-.85.28-1.15l.47-.47c.18-.18.47-.22.69-.08l.96.58c.23.14.32.43.22.68l-.28.68a5.48 5.48 0 0 0 1.58 1.58l.68-.28c.25-.1.54-.01.68.22l.58.96c.14.22.1.51-.08.69l-.47.47Z" fill="currentColor" stroke="none"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_whatsapp_title">WhatsApp</span></a>
+<span aria-label="Telegram link coming soon" class="contact-hub-action is-telegram is-disabled" id="contactHubTelegram" role="link" title="Telegram link coming soon"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M20.5 4.5 3.8 11.1c-.85.34-.8 1.56.08 1.82l4.36 1.3 1.68 4.65c.28.77 1.3.92 1.8.27l2.36-3.05 4.2 3.1c.72.53 1.75.12 1.91-.76L22 5.86c.16-.88-.68-1.69-1.5-1.36Z"></path><path d="m8.25 14.2 7.48-5.35"></path></svg></span><span class="contact-hub-action-title">Telegram</span></span>
+<a aria-label="Open Facebook" class="contact-hub-action is-facebook" href="https://www.facebook.com/profile.php?id=61573481100981" id="contactHubFacebook" rel="noopener noreferrer" target="_blank" title="Open Facebook"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M14 8.5h2V5h-2.55C10.95 5 9.5 6.62 9.5 9.22V11H7v3.5h2.5V20H13v-5.5h2.6L16 11h-3V9.25c0-.5.32-.75 1-.75Z"></path></svg></span><span class="contact-hub-action-title">Facebook</span></a>
+<a class="contact-hub-action is-email" href="mailto:info@cortexsentinel.am" id="contactHubEmail" data-i18n-aria="contact_hub_email" data-i18n-title="contact_hub_email"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><rect x="3.75" y="6" width="16.5" height="12" rx="2.5"></rect><path d="m5 8 7 5 7-5"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_email">Email</span></a>
+<a class="contact-hub-action is-call" href="tel:+37498770098" id="contactHubCall" data-i18n-aria="contact_hub_call" data-i18n-title="contact_hub_call"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M6.62 5.1 8.7 4.2a1.45 1.45 0 0 1 1.85.7l1.03 2.06c.3.6.15 1.33-.36 1.76l-1.1.93a9.7 9.7 0 0 0 4.23 4.23l.93-1.1c.43-.51 1.16-.66 1.76-.36l2.06 1.03c.68.34.98 1.14.7 1.85l-.9 2.08c-.3.7-1.02 1.12-1.78 1.02C10.7 17.58 6.42 13.3 5.6 6.88c-.1-.76.32-1.48 1.02-1.78Z"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_call">Call</span></a>
+<a class="contact-hub-action is-form" href="#contact-form" data-i18n-aria="contact_hub_form" data-i18n-title="contact_hub_form"><span aria-hidden="true" class="contact-hub-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M7 4.75h10A2.25 2.25 0 0 1 19.25 7v10A2.25 2.25 0 0 1 17 19.25H7A2.25 2.25 0 0 1 4.75 17V7A2.25 2.25 0 0 1 7 4.75Z"></path><path d="M8.5 9h7M8.5 12h7M8.5 15h4"></path></svg></span><span class="contact-hub-action-title" data-i18n="contact_hub_form">Form</span></a>
 </div>
 </div><div class="contact-hub-greeting" id="contactHubGreeting">
 <button aria-label="Փակել" class="contact-hub-greeting-close" data-i18n-aria="contact_hub_greeting_close" type="button">×</button>
 <div class="contact-hub-greeting-title" data-i18n="contact_hub_greeting_title">Կորտեքս Սենթինելի մենեջեր</div>
 <div class="contact-hub-greeting-text" data-i18n="contact_hub_greeting_text">Ողջույն, ինչո՞վ կարող եմ աջակցել Ձեզ</div>
-</div><button aria-controls="contactHubPanel" aria-expanded="false" aria-label="Բացել կապի ալիքները" class="contact-hub-toggle" id="contactHubToggle" title="Բացել կապի ալիքները" type="button">
+</div><button aria-controls="contactHubPanel" aria-expanded="false" aria-label="Open contact channels" class="contact-hub-toggle" id="contactHubToggle" title="Open contact channels" type="button">
 <span aria-hidden="true" class="contact-hub-pulse"></span>
 <svg class="contact-hub-chat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" aria-hidden="true"><path d="M6.2 16.6 4.8 20l3.65-1.28A8.9 8.9 0 0 0 12 19.45c4.42 0 8-2.95 8-6.6s-3.58-6.6-8-6.6-8 2.95-8 6.6c0 1.45.57 2.78 1.52 3.85"></path><path d="M8.2 11.55h7.6"></path><path d="M8.2 14.25h4.9"></path></svg>
 </button>
 </div>
 <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobileMenu">
-<button aria-label="Փակել մենյուն" class="mobile-close" onclick="toggleMenu()">✕</button>
-<a data-i18n="nav_services" href="#services" onclick="toggleMenu()">Ծառայություններ</a>
-<a data-i18n="nav_packages" href="#packages" onclick="toggleMenu()">Բաժանորդագրություն</a>
-<a data-i18n="nav_how" href="#how" onclick="toggleMenu()">Ինչպես է աշխատում</a>
-<a data-i18n="nav_about" href="#why" onclick="toggleMenu()">Մեր մասին</a>
-<a data-i18n="nav_contact" href="#contact-form" onclick="toggleMenu()" style="color:var(--teal)">Կապ հաստատել</a>
+<button aria-label="Close menu" class="mobile-close" onclick="toggleMenu()">&times;</button>
+<a data-i18n="nav_services" href="#services" onclick="toggleMenu()">Services</a>
+<a data-i18n="nav_packages" href="#packages" onclick="toggleMenu()">Plans</a>
+<a data-i18n="nav_how" href="#how" onclick="toggleMenu()">How It Works</a>
+<a data-i18n="nav_about" href="#why" onclick="toggleMenu()">About Us</a>
+<a data-i18n="nav_contact" href="#contact-form" onclick="toggleMenu()" style="color:var(--teal)">Contact Us</a>
 <div class="mobile-lang globe-switcher">
-<button aria-expanded="false" aria-label="Ընտրել լեզուն" class="lang-toggle mobile-lang-toggle" onclick="toggleLangMenu(event, 'mobileLangMenu')" type="button">
-<span class="lang-flag" data-lang-code="hy" id="langCurrentMobile" aria-hidden="true"></span>
+<button aria-expanded="false" aria-label="Select language" class="lang-toggle mobile-lang-toggle" onclick="toggleLangMenu(event, 'mobileLangMenu')" type="button">
+<span class="lang-flag" data-lang-code="en" id="langCurrentMobile" aria-hidden="true"></span>
 </button>
 <div class="lang-dropdown mobile-lang-dropdown" id="mobileLangMenu">
-<button aria-label="Հայերեն" class="lang-btn active" data-lang-code="hy" onclick="switchPageLang('hy', true)" title="Հայերեն" type="button"></button>
-<button aria-label="Русский" class="lang-btn" data-lang-code="ru" onclick="switchPageLang('ru', true)" title="Русский" type="button"></button>
-<button aria-label="English" class="lang-btn" data-lang-code="en" onclick="switchPageLang('en', true)" title="English" type="button"></button>
+<button aria-label="Armenian" class="lang-btn" data-lang-code="hy" onclick="switchPageLang('hy', true)" title="Armenian" type="button"></button>
+<button aria-label="Russian" class="lang-btn" data-lang-code="ru" onclick="switchPageLang('ru', true)" title="Russian" type="button"></button>
+<button aria-label="English" class="lang-btn active" data-lang-code="en" onclick="switchPageLang('en', true)" title="English" type="button"></button>
 </div>
 </div>
 </div>
 <!-- NAV -->
 <nav id="navbar">
 <a class="nav-logo" href="#">
-<img alt="Cortex Sentinel Logo" class="nav-logo-icon" onerror="this.style.display='none'" src="cortex_transparent.png"/>
+<img alt="Cortex Sentinel Logo" class="nav-logo-icon" onerror="this.style.display='none'" src="../cortex_transparent.png"/>
 <span class="nav-brand nav-brand-hybrid brand-split switchable-brand" id="navBrandSwitch">
-<span class="brand-core" data-en="CORTEX" data-hy="ԿՈՐՏԵՔՍ">CORTEX</span> <span class="brand-mark" data-en="SENTINEL" data-hy="ՍԵՆԹԻՆԵԼ">SENTINEL</span>
+<span class="brand-core" data-en="CORTEX">CORTEX</span> <span class="brand-mark" data-en="SENTINEL">SENTINEL</span>
 </span>
 </a>
 <ul class="nav-links">
-<li><a data-i18n="nav_services" href="#services">Ծառայություններ</a></li>
-<li><a data-i18n="nav_packages" href="#packages">Բաժանորդագրություն</a></li>
-<li><a data-i18n="nav_how" href="#how">Ինչպես է աշխատում</a></li>
-<li><a data-i18n="nav_about" href="#why">Մեր մասին</a></li>
-<li><a class="nav-cta" data-i18n="nav_contact" href="#contact-form">Կապ հաստատել</a></li>
+<li><a data-i18n="nav_services" href="#services">Services</a></li>
+<li><a data-i18n="nav_packages" href="#packages">Plans</a></li>
+<li><a data-i18n="nav_how" href="#how">How It Works</a></li>
+<li><a data-i18n="nav_about" href="#why">About Us</a></li>
+<li><a class="nav-cta" data-i18n="nav_contact" href="#contact-form">Contact Us</a></li>
 <li>
 <div class="lang-switcher globe-switcher">
-<button aria-expanded="false" aria-label="Ընտրել լեզուն" class="lang-toggle" onclick="toggleLangMenu(event, 'desktopLangMenu')" type="button">
-<span class="lang-flag" data-lang-code="hy" id="langCurrentDesktop" aria-hidden="true"></span>
+<button aria-expanded="false" aria-label="Select language" class="lang-toggle" onclick="toggleLangMenu(event, 'desktopLangMenu')" type="button">
+<span class="lang-flag" data-lang-code="en" id="langCurrentDesktop" aria-hidden="true"></span>
 </button>
 <div class="lang-dropdown" id="desktopLangMenu">
-<button aria-label="Հայերեն" class="lang-btn active" id="btn-hy" data-lang-code="hy" onclick="switchPageLang('hy')" title="Հայերեն" type="button"></button>
-<button aria-label="Русский" class="lang-btn" id="btn-ru" data-lang-code="ru" onclick="switchPageLang('ru')" title="Русский" type="button"></button>
-<button aria-label="English" class="lang-btn" id="btn-en" data-lang-code="en" onclick="switchPageLang('en')" title="English" type="button"></button>
+<button aria-label="Armenian" class="lang-btn" id="btn-hy" data-lang-code="hy" onclick="switchPageLang('hy')" title="Armenian" type="button"></button>
+<button aria-label="Russian" class="lang-btn" id="btn-ru" data-lang-code="ru" onclick="switchPageLang('ru')" title="Russian" type="button"></button>
+<button aria-label="English" class="lang-btn active" id="btn-en" data-lang-code="en" onclick="switchPageLang('en')" title="English" type="button"></button>
 </div>
 </div>
 </li>
 </ul>
-<div aria-label="Բացել մենյուն" class="nav-mobile-btn" onclick="toggleMenu()" role="button" tabindex="0">
+<div aria-label="Open menu" class="nav-mobile-btn" onclick="toggleMenu()" role="button" tabindex="0">
 <span></span><span></span><span></span>
 </div>
 </nav>
@@ -99,88 +99,85 @@
 </div>
 <div class="hero-content">
 <div class="hero-left">
-<div class="hero-tag" data-i18n="hero_tag">Հայաստանում առաջին իրական «SOC» Կենտրոնը</div>
-<h1 class="hero-title">
-<span class="hero-title-line">Ձեր անվտանգությունը՝</span>
-<span class="hero-title-accent-line"><em>24/7</em><span class="hero-title-tail">ռեժիմով</span></span>
-</h1>
-<p class="hero-desc" data-i18n="hero_desc">Հեռավար տեսահսկում, արհեստական բանականությամբ սպառնալիքների հայտնաբերում, լուսաձայնային, բարձրախոսային և դրոնային արձագանք՝ մեկ ինտեգրված համակարգում, որը գործում է հենց այն պահին, երբ յուրաքանչյուր վայրկյանը կարևոր է</p>
+<div class="hero-tag" data-i18n="hero_tag">Armenia's first real SOC</div>
+<h1 class="hero-title"><span class="hero-title-line">Your security -</span><span class="hero-title-accent-line"><em>24/7</em></span></h1>
+<p class="hero-desc" data-i18n="hero_desc">Remote video surveillance, AI-assisted threat detection, light-and-sound deterrence, loudspeaker intervention, and drone response in one integrated system designed to act when every second matters.</p>
 <div class="hero-btns">
-<a class="btn-main" data-i18n="hero_btn1" href="#contact-form">ՍԿՍԵԼ ԱՆՎՃԱՐԻՑ →</a>
-<a class="btn-ghost" data-i18n="hero_btn2" href="#packages">Տեսնել փաթեթները</a>
+<a class="btn-main" data-i18n="hero_btn1" href="#contact-form">Start for free →</a>
+<a class="btn-ghost" data-i18n="hero_btn2" href="#packages">View plans</a>
 </div>
 </div>
 <div class="hero-right">
 <div class="hero-monitor">
 <div class="monitor-header">
 <span class="monitor-title">SOC Dashboard - Live</span>
-<span class="monitor-status" data-i18n="monitor_status">Ակտիվ մշտադիտարկում</span>
+<span class="monitor-status" data-i18n="monitor_status">Monitoring active</span>
 </div>
 <!-- CAM GRID with canvas animations -->
 <div class="cam-grid">
 <!-- CAM 01: Parking lot -->
-<div class="cam-wrap" title="Կրկնակի սեղմումով բացել / փակել">
+<div class="cam-wrap" title="Double-click to expand / collapse">
 <div class="cam-feed" id="cam1-feed">
 <canvas height="180" id="cam1" width="320"></canvas>
 <span class="cam-status">ONLINE</span>
 <span class="cam-label">CAM 01</span>
 <span class="cam-live">● LIVE</span>
 <div class="cam-ctrl">
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',1)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Ակտիվ լույս</span></button>
-<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',1)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Լուսաձայնային ազդանշան</span></button>
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',1)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Բարձրախոս</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',1)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Light</span></button>
+<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',1)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Siren</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',1)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Speaker</span></button>
 </div>
 </div>
 </div>
 <!-- CAM 02: Office corridor -->
-<div class="cam-wrap" title="Կրկնակի սեղմումով բացել / փակել">
+<div class="cam-wrap" title="Double-click to expand / collapse">
 <div class="cam-feed" id="cam2-feed">
 <canvas height="180" id="cam2" width="320"></canvas>
 <span class="cam-status">ONLINE</span>
 <span class="cam-label">CAM 02</span>
 <span class="cam-live">● LIVE</span>
 <div class="cam-ctrl">
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',2)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Ակտիվ լույս</span></button>
-<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',2)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Լուսաձայնային ազդանշան</span></button>
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',2)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Բարձրախոս</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',2)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Light</span></button>
+<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',2)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Siren</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',2)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Speaker</span></button>
 </div>
 </div>
 </div>
 <!-- CAM 03: Warehouse (motion alert) -->
-<div class="cam-wrap" title="Կրկնակի սեղմումով բացել / փակել">
+<div class="cam-wrap" title="Double-click to expand / collapse">
 <div class="cam-feed motion-active" id="cam3-feed">
 <canvas height="180" id="cam3" width="320"></canvas>
 <span class="cam-status motion">MOTION</span>
 <span class="cam-label">CAM 03</span>
 <span class="cam-live">● LIVE</span>
 <div class="cam-ctrl">
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',3)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Ակտիվ լույս</span></button>
-<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',3)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Լուսաձայնային ազդանշան</span></button>
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',3)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Բարձրախոս</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',3)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Light</span></button>
+<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',3)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Siren</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',3)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Speaker</span></button>
 </div>
 </div>
 </div>
 <!-- CAM 04: Outdoor perimeter -->
-<div class="cam-wrap" title="Կրկնակի սեղմումով բացել / փակել">
+<div class="cam-wrap" title="Double-click to expand / collapse">
 <div class="cam-feed" id="cam4-feed">
 <canvas height="180" id="cam4" width="320"></canvas>
 <span class="cam-status">ONLINE</span>
 <span class="cam-label">CAM 04</span>
 <span class="cam-live">● LIVE</span>
 <div class="cam-ctrl">
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',4)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Ակտիվ լույս</span></button>
-<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',4)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Լուսաձայնային ազդանշան</span></button>
-<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',4)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Բարձրախոս</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'light',4)">💡<span class="cam-ctrl-label" data-i18n="ctrl_light">Light</span></button>
+<button class="cam-ctrl-btn danger" onclick="toggleCtrl(this,'bell',4)">🚨<span class="cam-ctrl-label" data-i18n="ctrl_bell">Siren</span></button>
+<button class="cam-ctrl-btn" onclick="toggleCtrl(this,'speaker',4)">🔊<span class="cam-ctrl-label" data-i18n="ctrl_speaker">Speaker</span></button>
 </div>
 </div>
 </div>
 </div>
 <div class="monitor-alerts">
-<div class="alert-item success"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert1">Օբյեկտ N12 - Ակտիվ մշտադիտարկում</span><span class="alert-time">LIVE</span></div>
-<div class="alert-item warning"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert2">CAM 03 - Իրադարձության հայտնաբերում</span><span class="alert-time">02:14:32</span></div>
-<div class="alert-item processing"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert3">Վերիֆիկացիա - ընթացքի մեջ</span><span class="alert-time">02:14:35</span></div>
-<div class="alert-item info"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert4">Ծանուցում - ուղարկվել է</span><span class="alert-time">02:14:58</span></div>
-<div class="alert-item verified"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert5">Թույլատրելի մուտք - հաստատված է</span><span class="alert-time">Verified</span></div>
+<div class="alert-item success"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert1">Site N12 - Monitoring active</span><span class="alert-time">LIVE</span></div>
+<div class="alert-item warning"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert2">CAM 03 - Motion detected</span><span class="alert-time">02:14:32</span></div>
+<div class="alert-item processing"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert3">Verification - in progress</span><span class="alert-time">02:14:35</span></div>
+<div class="alert-item info"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert4">Notification - sent</span><span class="alert-time">02:14:58</span></div>
+<div class="alert-item verified"><div class="alert-dot"></div><span class="alert-text" data-i18n="alert5">Authorized access - confirmed</span><span class="alert-time">Verified</span></div>
 </div>
 </div>
 </div>
@@ -190,44 +187,44 @@
 <div class="ticker">
 <div class="ticker-track">
 <div class="ticker-inner" id="tickerInner">
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick1">24/7 Հեռավար մշտադիտարկում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick2">Սպառնալիքների հայտնաբերում արհեստական բանականության օգնությամբ</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick3">Լուսաձայնային կանխարգելում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick4">Ձայնային / բարձրախոսային կանխարգելում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick5">Դրոնային կանխարգելում և տեղեկատվության հավաքագրում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick6">Տվյալների անվտանգ և ապահով պահպանում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick7">«SLA» արձագանք</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick8">Համագործակցություն իրավապահ մարմինների հետ</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick9">Հայաստան · Երևան · Վանաձոր</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick1">24/7 Հեռավար մշտադիտարկում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick2">Սպառնալիքների հայտնաբերում արհեստական բանականության օգնությամբ</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick3">Լուսաձայնային կանխարգելում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick4">Ձայնային / բարձրախոսային կանխարգելում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick5">Դրոնային կանխարգելում և տեղեկատվության հավաքագրում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick6">Տվյալների անվտանգ և ապահով պահպանում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick7">«SLA» արձագանք</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick8">Համագործակցություն իրավապահ մարմինների հետ</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick9">Հայաստան · Երևան · Վանաձոր</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick1">24/7 Հեռավար մշտադիտարկում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick2">Սպառնալիքների հայտնաբերում արհեստական բանականության օգնությամբ</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick3">Լուսաձայնային կանխարգելում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick4">Ձայնային / բարձրախոսային կանխարգելում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick5">Դրոնային կանխարգելում և տեղեկատվության հավաքագրում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick6">Տվյալների անվտանգ և ապահով պահպանում</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick7">«SLA» արձագանք</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick8">Համագործակցություն իրավապահ մարմինների հետ</span></span>
-<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick9">Հայաստան · Երևան · Վանաձոր</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick1">24/7 remote monitoring</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick2">AI-assisted threat detection</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick3">Light-and-sound deterrence</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick4">Audio and loudspeaker deterrence</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick5">Drone-based response and information gathering</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick6">Secure data storage and retention</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick7">SLA response</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick8">Coordination with law enforcement</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick9">Vanadzor · Armenia</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick1">24/7 remote monitoring</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick2">AI-assisted threat detection</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick3">Light-and-sound deterrence</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick4">Audio and loudspeaker deterrence</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick5">Drone-based response and information gathering</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick6">Secure data storage and retention</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick7">SLA response</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick8">Coordination with law enforcement</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick9">Vanadzor · Armenia</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick1">24/7 remote monitoring</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick2">AI-assisted threat detection</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick3">Light-and-sound deterrence</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick4">Audio and loudspeaker deterrence</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick5">Drone-based response and information gathering</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick6">Secure data storage and retention</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick7">SLA response</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick8">Coordination with law enforcement</span></span>
+<span class="ticker-item"><span class="ticker-sep">◆</span> <span data-i18n="tick9">Vanadzor · Armenia</span></span>
 </div>
 </div>
 </div>
 <!-- STATS -->
 <div class="stats">
 <div class="stats-grid">
-<div class="stat-box reveal"><div class="stat-num">24/7</div><div class="stat-label" data-i18n="stat1">Մշտադիտարկում</div></div>
-<div class="stat-box reveal"><div class="stat-num">AI+</div><div class="stat-label" data-i18n="stat2">Հայտնաբերում</div></div>
-<div class="stat-box reveal"><div class="stat-num">T1/T2</div><div class="stat-label" data-i18n="stat3">Դասակարգում</div></div>
-<div class="stat-box reveal"><div class="stat-num">&lt;2'</div><div class="stat-label" data-i18n="stat4">«SLA» · արձագանքում</div></div>
-<div class="stat-box reveal"><div class="stat-num">99.9%</div><div class="stat-label" data-i18n="stat5">«UPTIME» երաշխիք</div></div>
+<div class="stat-box reveal"><div class="stat-num">24/7</div><div class="stat-label" data-i18n="stat1">Monitoring</div></div>
+<div class="stat-box reveal"><div class="stat-num">AI+</div><div class="stat-label" data-i18n="stat2">Detection</div></div>
+<div class="stat-box reveal"><div class="stat-num">T1/T2</div><div class="stat-label" data-i18n="stat3">Classification</div></div>
+<div class="stat-box reveal"><div class="stat-num">&lt;2'</div><div class="stat-label" data-i18n="stat4">SLA response</div></div>
+<div class="stat-box reveal"><div class="stat-num">99.9%</div><div class="stat-label" data-i18n="stat5">Uptime guarantee</div></div>
 </div>
 </div>
 <!-- PROBLEMS -->
@@ -235,13 +232,13 @@
 <div class="section-inner">
 <div class="problems-layout">
 <div class="problems-text reveal">
-<div class="eyebrow prob-seq-item prob-1" data-i18n="prob_eyebrow">Խնդիրներ</div>
-<h2 class="prob-seq-item prob-2">Ինչու են ստանդարտ համակարգերը ձախողվում</h2>
-<p class="section-desc prob-seq-item prob-3" style="color:#7fd7e6">Հայաստանում տեսախցիկների 99%-ն աշխատում է առանց իրական վերահսկողության: Սա ոչ թե անվտանգություն է, այլ ուղղակի պատրանք</p>
+<div class="eyebrow prob-seq-item prob-1" data-i18n="prob_eyebrow">Problem Analysis</div>
+<h2 class="prob-seq-item prob-2">Why standard systems fail</h2>
+<p class="section-desc prob-seq-item prob-3" style="color:#7fd7e6">In Armenia, 99% of camera systems follow the same flawed logic: there is no real security, only passive recording.</p>
 <div class="problems-list">
-<div class="problem-item prob-seq-item prob-4"><span class="problem-num">01</span><div><div class="problem-title" data-i18n="p1t">Ոչ ոք չի հետևում</div><div class="problem-text" data-i18n="p1d">Տեսախցիկը կարող է նկարել, բայց իրական ժամանակում ոչ ոք չի դիտում</div></div></div>
-<div class="problem-item prob-seq-item prob-5"><span class="problem-num">02</span><div><div class="problem-title" data-i18n="p2t">Ուշ արձագանք</div><div class="problem-text" data-i18n="p2d">Դեպքից հետո արձագանքը հաճախ ուշացած է</div></div></div>
-<div class="problem-item prob-seq-item prob-6"><span class="problem-num">03</span><div><div class="problem-title" data-i18n="p3t">Ապացույցների կորուստ</div><div class="problem-text" data-i18n="p3d">Տեղային պահպանումը կարող է խափանվել, ենթարկվել արտաքին միջամտության կամ կորսվել</div></div></div>
+<div class="problem-item prob-seq-item prob-4"><span class="problem-num">01</span><div><div class="problem-title" data-i18n="p1t">No one is watching in real time</div><div class="problem-text" data-i18n="p1d">A DVR/NVR may simply record footage, but in many cases no one is actively supervising the situation in real time.</div></div></div>
+<div class="problem-item prob-seq-item prob-5"><span class="problem-num">02</span><div><div class="problem-title" data-i18n="p2t">Delayed response</div><div class="problem-text" data-i18n="p2d">When response begins only after the event, it is often already too late.</div></div></div>
+<div class="problem-item prob-seq-item prob-6"><span class="problem-num">03</span><div><div class="problem-title" data-i18n="p3t">Loss of evidence</div><div class="problem-text" data-i18n="p3d">Local storage can be damaged or destroyed, while cloud retention significantly reduces that risk.</div></div></div>
 </div>
 </div>
 <div class="problems-visual reveal">
@@ -251,54 +248,54 @@
 <div class="vs-dot" style="background:#ff5f57"></div>
 <div class="vs-dot" style="background:#febc2e"></div>
 <div class="vs-dot" style="background:#28c840"></div>
-<div class="vs-label" style="margin-left:10px;">ՀԱՄԵՄԱՏՈՒԹՅՈՒՆ</div>
+<div class="vs-label" style="margin-left:10px;">COMPARISON</div>
 </div>
 <!-- COLUMN TITLES -->
 <div class="vs-row">
-<div class="vs-col-head bad">ԱՎԱՆԴԱԿԱՆ ՄՈՏԵՑՈՒՄ</div>
+<div class="vs-col-head bad">CONVENTIONAL MODEL</div>
 <div class="vs-divider"></div>
-<div class="vs-col-head good brand-split switchable-brand" id="vsBrandHead"><span class="brand-core" data-en="CORTEX" data-hy="ԿՈՐՏԵՔՍ">CORTEX</span> <span class="brand-mark" data-en="SENTINEL" data-hy="ՍԵՆԹԻՆԵԼ">SENTINEL</span></div>
+<div class="vs-col-head good brand-split switchable-brand" id="vsBrandHead"><span class="brand-core" data-en="CORTEX">CORTEX</span> <span class="brand-mark" data-en="SENTINEL">SENTINEL</span></div>
 </div>
 <!-- ROWS -->
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Ոչ ոք չի հետևում</div></div>
+<div class="vs-col"><div class="vs-item bad">No one is watching</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">24/7 ակտիվ մշտադիտարկում</div></div>
+<div class="vs-col"><div class="vs-item good">24/7 active monitoring</div></div>
 </div>
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Տեղային պահպանում</div></div>
+<div class="vs-col"><div class="vs-item bad">Local storage</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">Ապահով պահպանում՝ 7–90 օր</div></div>
+<div class="vs-col"><div class="vs-item good">Secure retention: 7-90 days</div></div>
 </div>
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Կատարված դեպք</div></div>
+<div class="vs-col"><div class="vs-item bad">Reactive response</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">Ակնթարթային հայտնաբերում</div></div>
+<div class="vs-col"><div class="vs-item good">Immediate detection</div></div>
 </div>
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Արձագանքը ուշ է</div></div>
+<div class="vs-col"><div class="vs-item bad">Response is delayed</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">Վերիֆիկացիա/արձագանք՝ &lt;2 րոպե</div></div>
+<div class="vs-col"><div class="vs-item good">Verification and response: under 2 minutes</div></div>
 </div>
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Կանխարգելում չկա</div></div>
+<div class="vs-col"><div class="vs-item bad">No deterrence</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">Ակտիվ կանխարգելում</div></div>
+<div class="vs-col"><div class="vs-item good">Active deterrence</div></div>
 </div>
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Միայն դիտարկում</div></div>
+<div class="vs-col"><div class="vs-item bad">Observation only</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">Արձագանք, կանխարգելում</div></div>
+<div class="vs-col"><div class="vs-item good">Response and prevention</div></div>
 </div>
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Տվյալների կորուստ</div></div>
+<div class="vs-col"><div class="vs-item bad">Risk of data loss</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">Գրառում և հուսալի պահպանում</div></div>
+<div class="vs-col"><div class="vs-item good">Recording and reliable retention</div></div>
 </div>
 <div class="vs-row">
-<div class="vs-col"><div class="vs-item bad">Խափանման ռիսկ</div></div>
+<div class="vs-col"><div class="vs-item bad">Risk of system failure</div></div>
 <div class="vs-divider"></div>
-<div class="vs-col"><div class="vs-item good">24/7 կայուն աշխատանք</div></div>
+<div class="vs-col"><div class="vs-item good">24/7 operational continuity</div></div>
 </div>
 </div>
 </div>
@@ -309,50 +306,47 @@
 <div class="section-inner">
 <div class="services-head reveal">
 <div>
-<div class="eyebrow" data-i18n="svc_eyebrow">Ծառայություններ</div>
-<h2 class="hero-title">
-  Անվտանգային ամբողջական
-էկոհամակարգ
-</h2>
+<div class="eyebrow" data-i18n="svc_eyebrow">Services</div>
+<h2 class="hero-title">Integrated security ecosystem</h2>
 </div>
-<p class="section-desc" data-i18n="svc_desc" style="color:#7fd7e6;font-size:1rem;line-height:1.8;max-width:720px">Մեկ հարթակ, որը միավորում է հայտնաբերումը, վերիֆիկացիան, ծանուցումը և արագ արձագանքը</p>
+<p class="section-desc" data-i18n="svc_desc" style="color:#7fd7e6;font-size:1rem;line-height:1.8;max-width:720px">One platform covering the entire security chain - from detection to response.</p>
 </div>
 <div class="services-grid">
 <div class="service-card reveal">
 <div class="service-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" viewbox="0 0 48 48"><circle cx="24" cy="24" r="10"></circle><path d="M24 4v4M24 40v4M4 24h4M40 24h4M8.7 8.7l2.8 2.8M36.5 36.5l2.8 2.8M8.7 39.3l2.8-2.8M36.5 11.5l2.8-2.8"></path></svg></div>
-<div class="service-name" data-i18n="s1n">24/7 հեռավար մշտադիտարկում</div>
-<div class="service-text" data-i18n="s1d">«SOC» օպերատորները 24/7 հետևում են<br/>հոսքերին և գնահատում ռիսկերը</div>
-<span class="service-tag" data-i18n="s1t">12 ամիս · 6 ամիս · 3 ամիս · 1 ամիս</span>
+<div class="service-name" data-i18n="s1n">24/7 remote monitoring</div>
+<div class="service-text" data-i18n="s1d">Our SOC operators monitor streams 24/7<br/>and assess risks.</div>
+<span class="service-tag" data-i18n="s1t">12 / 6 / 3 / 1 months</span>
 </div>
 <div class="service-card reveal">
 <div class="service-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" viewbox="0 0 48 48"><path d="M12 36L4 44V8a4 4 0 014-4h32a4 4 0 014 4v20a4 4 0 01-4 4H12z"></path><path d="M16 16h16M16 24h10"></path></svg></div>
-<div class="service-name" data-i18n="s2n">Հայտնաբերում «AI» աջակցությամբ</div>
-<div class="service-text" data-i18n="s2d">«AI»-ը ֆիքսում է իրադարձությունը՝<br/>արագ գնահատման և արձագանքի համար</div>
-<span class="service-tag" data-i18n="s2t">Բոլոր փաթեթներում</span>
+<div class="service-name" data-i18n="s2n">AI-assisted detection</div>
+<div class="service-text" data-i18n="s2d">AI support captures the event<br/>for rapid assessment and response.</div>
+<span class="service-tag" data-i18n="s2t">Included in all packages</span>
 </div>
 <div class="service-card reveal">
 <div class="service-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" viewbox="0 0 48 48"><path d="M24 4l18 9v12c0 10-8 19-18 21C14 44 6 35 6 25V13L24 4z"></path><path d="M16 24l6 6 10-12"></path></svg></div>
-<div class="service-name" data-i18n="s3n">Արձագանքում և ծանուցում</div>
-<div class="service-text" data-i18n="s3d">Արագ վերիֆիկացիա, արձագանք,<br/>ծանուցում և ահազանգ</div>
-<span class="service-tag" data-i18n="s3t">«SLA» պայմաններով</span>
+<div class="service-name" data-i18n="s3n">Notification and response</div>
+<div class="service-text" data-i18n="s3d">Rapid verification, response,<br/>notification, and alerting.</div>
+<span class="service-tag" data-i18n="s3t">Under SLA terms</span>
 </div>
 <div class="service-card reveal">
 <div class="service-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" viewbox="0 0 48 48"><path d="M24 8c-8 0-14 6-14 14s6 14 14 14 14-6 14-14S32 8 24 8z"></path><path d="M24 22v-6M24 28h.01M8 40l4-4M36 36l4 4"></path></svg></div>
-<div class="service-name" data-i18n="s4n">Բարձրախոսային արձագանք</div>
-<div class="service-text" data-i18n="s4d">Կենդանի կամ նախապես մշակված<br/>ձայնային հաղորդագրություն</div>
-<span class="service-tag" data-i18n="s4t">Ընտրովի ծառայություն</span>
+<div class="service-name" data-i18n="s4n">Loudspeaker intervention</div>
+<div class="service-text" data-i18n="s4d">Live or pre-recorded<br/>voice message.</div>
+<span class="service-tag" data-i18n="s4t">Optional / depends on plan</span>
 </div>
 <div class="service-card reveal">
 <div class="service-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" viewbox="0 0 48 48"><path d="M24 16l-4-8h8l-4 8zM12 28l-6-4 4-6 6 4-4 6zM36 28l6-4-4-6-6 4 4 6zM24 44v-8M18 36h12"></path><circle cx="24" cy="28" r="6"></circle></svg></div>
-<div class="service-name" data-i18n="s5n">Դրոնային արձագանք</div>
-<div class="service-text" data-i18n="s5d">Օդային դիտարկում և լրացուցիչ<br/>տեսանկարահանում</div>
-<span class="service-tag" data-i18n="s5t">Ընտրովի ծառայություն</span>
+<div class="service-name" data-i18n="s5n">Drone response</div>
+<div class="service-text" data-i18n="s5d">Aerial monitoring and extra video capture<br/>to keep control.</div>
+<span class="service-tag" data-i18n="s5t">Optional service</span>
 </div>
 <div class="service-card reveal">
 <div class="service-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" viewbox="0 0 48 48"><rect height="28" rx="3" width="40" x="4" y="8"></rect><path d="M16 36l-4 8h24l-4-8M4 28h40"></path></svg></div>
-<div class="service-name" data-i18n="s6n">Տվյալների գրառում և պահպանում</div>
-<div class="service-text" data-i18n="s6d">Տեսագրությունների 7–90 օր պահպանում՝<br/>հետագա վերլուծության համար</div>
-<span class="service-tag" data-i18n="s6t">Բոլոր փաթեթներում · Ընտրովի</span>
+<div class="service-name" data-i18n="s6n">Cloud archive and evidence</div>
+<div class="service-text" data-i18n="s6d">Retention of recordings for 7 to 90 days<br/>for later analysis.</div>
+<span class="service-tag" data-i18n="s6t">Included in all packages</span>
 </div>
 </div>
 </div>
@@ -361,17 +355,15 @@
 <section class="how" id="how">
 <div class="section-inner">
 <div class="reveal" style="text-align:center">
-<div class="eyebrow" data-i18n="how_eyebrow">Գործընթաց</div>
-<h2 class="hero-title">
-  Ինչպես ենք աշխատում
-</h2>
-<p class="section-desc" data-i18n="how_desc" style="margin:0 auto;max-width:max-content;white-space:nowrap;color:#7fd7e6;font-size:1rem;line-height:1.8">Համակարգի գործարկումից մինչև լիարժեք պաշտպանություն՝ 4 հստակ քայլերով</p>
+<div class="eyebrow" data-i18n="how_eyebrow">Process</div>
+<h2 class="hero-title">How we work</h2>
+<p class="section-desc" data-i18n="how_desc" style="margin:0 auto;max-width:max-content;white-space:nowrap;color:#7fd7e6;font-size:1rem;line-height:1.8">From onboarding to full protection - in four clear steps.</p>
 </div>
 <div class="how-steps">
-<div class="how-step reveal"><div class="step-circle">01</div><div class="step-name" data-i18n="step1n">Համակցում</div><div class="step-desc" data-i18n="step1d">Միացնում ենք տեսախցիկները,<br/>ցանցը և<br/>հոսքերը</div></div>
-<div class="how-step reveal"><div class="step-circle">02</div><div class="step-name" data-i18n="step2n">Կարգավորում</div><div class="step-desc" data-i18n="step2d">Սահմանում և համաձայնեցնում ենք<br/>գոտիներն ու<br/>կանոնները</div></div>
-<div class="how-step reveal"><div class="step-circle">03</div><div class="step-name" data-i18n="step3n">Մշտադիտարկում</div><div class="step-desc" data-i18n="step3d">24/7 վերահսկում՝<br/>«AI»-ով և<br/>օպերատորով</div></div>
-<div class="how-step reveal"><div class="step-circle">04</div><div class="step-name" data-i18n="step4n">Արձագանքում</div><div class="step-desc" data-i18n="step4d">Կանխարգելում, ծանուցում,<br/>ահազանգ և<br/>հաշվետվություն</div></div>
+<div class="how-step reveal"><div class="step-circle">01</div><div class="step-name" data-i18n="step1n">Connection</div><div class="step-desc" data-i18n="step1d">We connect cameras,<br/>the network, and the<br/>feeds.</div></div>
+<div class="how-step reveal"><div class="step-circle">02</div><div class="step-name" data-i18n="step2n">Configuration</div><div class="step-desc" data-i18n="step2d">We define and approve<br/>the zones and<br/>rules.</div></div>
+<div class="how-step reveal"><div class="step-circle">03</div><div class="step-name" data-i18n="step3n">Monitoring</div><div class="step-desc" data-i18n="step3d">24/7 control with AI<br/>and operator<br/>oversight.</div></div>
+<div class="how-step reveal"><div class="step-circle">04</div><div class="step-name" data-i18n="step4n">Response</div><div class="step-desc" data-i18n="step4d">Deterrence,<br/>notification, alerting,<br/>and reporting.</div></div>
 </div>
 </div>
 </section>
@@ -379,109 +371,109 @@
 <section class="packages" id="packages">
 <div class="section-inner">
 <div class="reveal" style="text-align:center">
-<div class="eyebrow" data-i18n="pkg_eyebrow">Գնային առաջարկներ</div>
-<h2 class="hero-title">Բաժանորդագրություն</h2>
-<p class="section-desc packages-note-line" data-i18n="pkg_desc" style="margin:0 auto;color:#7fd7e6;font-size:1rem;line-height:1.8">Բոլոր գները ՀՀ դրամով՝ ներառյալ ԱԱՀ  · ամսական  · մեկ միավոր տեսախցիկի հաշվարկով</p>
+<div class="eyebrow" data-i18n="pkg_eyebrow">Pricing</div>
+<h2 class="hero-title">Subscription plans</h2>
+<p class="section-desc packages-note-line" data-i18n="pkg_desc" style="margin:0 auto;color:#7fd7e6;font-size:1rem;line-height:1.8">All prices are listed in AMD, per camera, per month.</p>
 </div>
 <div class="pkg-common reveal">
-<div class="pkg-common-head" data-i18n="pkg_common_title">Բոլոր փաթեթներում լռելյայն ներառված են</div>
+<div class="pkg-common-head" data-i18n="pkg_common_title">Included in every plan</div>
 <ul class="pkg-common-list">
-<li data-i18n="pkg_common_1">24/7 մշտադիտարկում</li>
-<li data-i18n="pkg_common_2">«AI» աջակցություն</li>
-<li data-i18n="pkg_common_3">Լույսաձայնային կանխարգելում</li>
-<li data-i18n="pkg_common_4">Ծանուցում և ահազանգ</li>
-<li data-i18n="pkg_common_5">7-օրյա պահպանում</li>
+<li data-i18n="pkg_common_1">24/7 monitoring</li>
+<li data-i18n="pkg_common_2">AI-assisted detection</li>
+<li data-i18n="pkg_common_3">Light-and-sound deterrence</li>
+<li data-i18n="pkg_common_4">Alerts and escalation</li>
+<li data-i18n="pkg_common_5">7-day retention</li>
 </ul>
 </div>
 <div class="packages-grid">
 <div class="pkg-featured-wrap reveal">
-<span class="pkg-badge" data-i18n="pkg_popular">Ամենապահանջվածը</span>
+<span class="pkg-badge" data-i18n="pkg_popular">Most popular</span>
 <div class="pkg-card featured">
 <div class="pkg-head">
-<div class="pkg-name" data-i18n="pkg1n">12 ամսյա</div>
+<div class="pkg-name" data-i18n="pkg1n">12-month plan</div>
 <div class="pkg-price">
 <div class="pkg-price-line">
-<span class="pkg-price-from">Սկսած</span>
+<span class="pkg-price-from">From</span>
 <span class="pkg-price-number">14,000</span>
-<span class="pkg-price-currency">ՀՀ դրամից</span>
+<span class="pkg-price-currency">AMD</span>
 </div>
-<div class="pkg-unit">1 տեսախցիկ / ամիս</div>
+<div class="pkg-unit">1 camera / month</div>
 </div>
 </div>
 <div class="pkg-body">
 <ul class="pkg-features compact">
-<li class="included" data-i18n="pkg1u1">Երկարաժամկետ համագործակցության դեպքում ապահովում է ամենաշահավետ ամսական սակագինը</li>
-<li class="included" data-i18n="pkg1u2">Լռելյայն ներառված են 24/7 մշտադիտարկումը, «AI» աջակցությունը և լույսաձայնային կանխարգելումը</li>
-<li class="optional" data-i18n="pkg1u3">Ծանուցումը, ահազանգը և 7-օրյա պահպանումը ներառված են, իսկ մյուս ծառայությունները հասանելի են ընտրովի կարգով</li>
+<li class="included" data-i18n="pkg1u1">Lowest monthly cost</li>
+<li class="included" data-i18n="pkg1u2">Best for long-term sites</li>
+<li class="optional" data-i18n="pkg1u3">All optional response layers available</li>
 </ul>
-<a class="pkg-btn pkg-btn-featured" data-i18n="pkg1btn" href="#calculator" onclick="setPackagePeriod(12)">Ընտրել 12 ամիսը →</a>
+<a class="pkg-btn pkg-btn-featured" data-i18n="pkg1btn" href="#calculator" onclick="setPackagePeriod(12)">Choose 12 months →</a>
 </div>
 </div>
 </div>
 <div class="pkg-card reveal">
 <div class="pkg-head">
 <div class="pkg-meta placeholder"><span class="pkg-badge">.</span></div>
-<div class="pkg-name" data-i18n="pkg2n">6 ամսյա</div>
+<div class="pkg-name" data-i18n="pkg2n">6-month plan</div>
 <div class="pkg-price">
 <div class="pkg-price-line">
-<span class="pkg-price-from">Սկսած</span>
+<span class="pkg-price-from">From</span>
 <span class="pkg-price-number">15,000</span>
-<span class="pkg-price-currency">ՀՀ դրամից</span>
+<span class="pkg-price-currency">AMD</span>
 </div>
-<div class="pkg-unit">1 տեսախցիկ / ամիս</div>
+<div class="pkg-unit">1 camera / month</div>
 </div>
 </div>
 <div class="pkg-body">
 <ul class="pkg-features compact">
-<li class="included" data-i18n="pkg2u1">Հարմար տարբերակ է, երբ պետք է համադրել շահավետ սակագինն ու ավելի կարճ պայմանագրային ժամկետը</li>
-<li class="included" data-i18n="pkg2u2">Լռելյայն ներառված են 24/7 մշտադիտարկումը, «AI» աջակցությունը և լույսաձայնային կանխարգելումը</li>
-<li class="optional" data-i18n="pkg2u3">Ծանուցումը, ահազանգը և 7-օրյա պահպանումը ներառված են, իսկ մյուս ծառայությունները հասանելի են ընտրովի կարգով</li>
+<li class="included" data-i18n="pkg2u1">Best balance of price and term</li>
+<li class="included" data-i18n="pkg2u2">Suitable for active business sites</li>
+<li class="optional" data-i18n="pkg2u3">Additional response layers added as needed</li>
 </ul>
-<a class="pkg-btn pkg-btn-outline" data-i18n="pkg2btn" href="#calculator" onclick="setPackagePeriod(6)">Ընտրել 6 ամիսը →</a>
+<a class="pkg-btn pkg-btn-outline" data-i18n="pkg2btn" href="#calculator" onclick="setPackagePeriod(6)">Choose 6 months →</a>
 </div>
 </div>
 <div class="pkg-card reveal">
 <div class="pkg-head">
 <div class="pkg-meta placeholder"><span class="pkg-badge">.</span></div>
-<div class="pkg-name" data-i18n="pkg3n">3 ամսյա</div>
+<div class="pkg-name" data-i18n="pkg3n">3-month plan</div>
 <div class="pkg-price">
 <div class="pkg-price-line">
-<span class="pkg-price-from">Սկսած</span>
+<span class="pkg-price-from">From</span>
 <span class="pkg-price-number">16,500</span>
-<span class="pkg-price-currency">ՀՀ դրամից</span>
+<span class="pkg-price-currency">AMD</span>
 </div>
-<div class="pkg-unit">1 տեսախցիկ / ամիս</div>
+<div class="pkg-unit">1 camera / month</div>
 </div>
 </div>
 <div class="pkg-body">
 <ul class="pkg-features compact">
-<li class="included" data-i18n="pkg3u1">Նախատեսված է սեզոնային, ժամանակավոր կամ կարճաժամկետ շահագործվող օբյեկտների համար</li>
-<li class="included" data-i18n="pkg3u2">Լռելյայն ներառված են 24/7 մշտադիտարկումը, «AI» աջակցությունը և լույսաձայնային կանխարգելումը</li>
-<li class="optional" data-i18n="pkg3u3">Ծանուցումը, ահազանգը և 7-օրյա պահպանումը ներառված են, իսկ մյուս ծառայությունները հասանելի են ընտրովի կարգով</li>
+<li class="included" data-i18n="pkg3u1">Flexible short-term option</li>
+<li class="included" data-i18n="pkg3u2">Suitable for seasonal or pilot phases</li>
+<li class="optional" data-i18n="pkg3u3">All add-ons are connected separately</li>
 </ul>
-<a class="pkg-btn pkg-btn-outline" data-i18n="pkg3btn" href="#calculator" onclick="setPackagePeriod(3)">Ընտրել 3 ամիսը →</a>
+<a class="pkg-btn pkg-btn-outline" data-i18n="pkg3btn" href="#calculator" onclick="setPackagePeriod(3)">Choose 3 months →</a>
 </div>
 </div>
 <div class="pkg-card reveal">
 <div class="pkg-head">
 <div class="pkg-meta placeholder"><span class="pkg-badge">.</span></div>
-<div class="pkg-name" data-i18n="pkg4n">1 ամսյա</div>
+<div class="pkg-name" data-i18n="pkg4n">1-month plan</div>
 <div class="pkg-price">
 <div class="pkg-price-line">
-<span class="pkg-price-from">Սկսած</span>
+<span class="pkg-price-from">From</span>
 <span class="pkg-price-number">23,000</span>
-<span class="pkg-price-currency">ՀՀ դրամից</span>
+<span class="pkg-price-currency">AMD</span>
 </div>
-<div class="pkg-unit">1 տեսախցիկ / ամիս</div>
+<div class="pkg-unit">1 camera / month</div>
 </div>
 </div>
 <div class="pkg-body">
 <ul class="pkg-features compact">
-<li class="included" data-i18n="pkg4u1">Նպատակահարմար է արագ գործարկման, փորձնական շրջանի կամ կարճաժամկետ կարիքի դեպքում</li>
-<li class="included" data-i18n="pkg4u2">Լռելյայն ներառված են 24/7 մշտադիտարկումը, «AI» աջակցությունը և լույսաձայնային կանխարգելումը</li>
-<li class="optional" data-i18n="pkg4u3">Ծանուցումը, ահազանգը և 7-օրյա պահպանումը ներառված են, իսկ մյուս ծառայությունները հասանելի են ընտրովի կարգով</li>
+<li class="included" data-i18n="pkg4u1">Most flexible starting option</li>
+<li class="included" data-i18n="pkg4u2">Suitable for rapid launch or pilot phase</li>
+<li class="optional" data-i18n="pkg4u3">Can be extended easily later</li>
 </ul>
-<a class="pkg-btn pkg-btn-outline" data-i18n="pkg4btn" href="#calculator" onclick="setPackagePeriod(1)">Ընտրել 1 ամիսը →</a>
+<a class="pkg-btn pkg-btn-outline" data-i18n="pkg4btn" href="#calculator" onclick="setPackagePeriod(1)">Choose 1 month →</a>
 </div>
 </div>
 </div>
@@ -489,74 +481,74 @@
 <div class="options-wrap reveal" id="options">
 <div class="options-head">
 <div>
-<div class="eyebrow options-eyebrow" data-i18n="opt_eyebrow">Լրացուցիչ ընտրովի ծառայություններ</div>
-<p class="options-lead" data-i18n="opt_lead">Ընտրովի գործառույթներ՝ համակարգի հուսալիության, անխափան մշտադիտարկման, իրադարձությունների հայտնաբերման և դեպքերի կանխարգելման մակարդակի բարձրացման համար</p>
+<div class="eyebrow options-eyebrow" data-i18n="opt_eyebrow">Additional options</div>
+<p class="options-lead" data-i18n="opt_lead">Optional capabilities that improve reliability, deterrence, and storage flexibility.</p>
 </div>
 </div>
 <div class="options-grid">
-<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6"></path><path d="M8 6h8v12H8z"></path><path d="M10 18h4"></path><path d="M12 9v4"></path><path d="M10 11h4"></path></svg></div><div class="opt-tag" data-i18n="opt1tag">Հուսալիություն</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt1n">Պահուստային սնուցում (UPS)</div><div class="opt-desc" data-i18n="opt1d">Ապահովում է համակարգի անխափան աշխատանքը հոսանքի կորստի դեպքում</div><div class="opt-price"><span class="opt-price-label">Սկսած</span><span class="opt-price-amount">2000</span><span class="opt-price-currency">ՀՀ դրամից</span><span class="opt-price-tail">/ ամիս / օբյեկտ</span></div></div></a>
-<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12l3-3"></path><path d="M9 15l6-6"></path><path d="M7.5 16.5a6.5 6.5 0 0 1 0-9"></path><path d="M16.5 7.5a6.5 6.5 0 0 1 0 9"></path><path d="M4.5 19.5a10 10 0 0 1 0-15"></path><path d="M19.5 4.5a10 10 0 0 1 0 15"></path><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"></circle></svg></div><div class="opt-tag" data-i18n="opt2tag">Կապ</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt2n">Պահուստային ինտերնետ (4G/5G)</div><div class="opt-desc" data-i18n="opt2d">Հիմնական կապի խափանման դեպքում համակարգը կարող է անցնել բջջային կապի</div><div class="opt-price"><span class="opt-price-label">Սկսած</span><span class="opt-price-amount">1500</span><span class="opt-price-currency">ՀՀ դրամից</span><span class="opt-price-tail">/ ամիս / օբյեկտ</span></div></div></a>
-<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10v4"></path><path d="M9 8l5-3v14l-5-3H5z"></path><path d="M17 9a4 4 0 0 1 0 6"></path><path d="M18.5 6.5a7 7 0 0 1 0 11"></path></svg></div><div class="opt-tag" data-i18n="opt3tag">Կանխարգելում</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt3n">Բարձրախոսային միջամտություն</div><div class="opt-desc" data-i18n="opt3d">Օպերատորի ձայնային հաղորդագրություն՝ օբյեկտում կանխարգելիչ ազդեցության համար</div><div class="opt-price"><span class="opt-price-amount">+4500</span><span class="opt-price-currency">ՀՀ դրամ</span><span class="opt-price-tail">/ ամիս / օբյեկտ</span></div></div></a>
-<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8l3 2v3l-3 2-3-2v-3z"></path><path d="M12 8V5"></path><path d="M15 10l2.6-1.5"></path><path d="M9 10L6.4 8.5"></path><path d="M15 13l2.6 1.5"></path><path d="M9 13l-2.6 1.5"></path><path d="M12 15v3"></path></svg></div><div class="opt-tag" data-i18n="opt4tag">Արձագանքում</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt4n">Դրոնային արձագանք</div><div class="opt-desc" data-i18n="opt4d">Օդային դիտարկում և դեպքին առնչվող օպերատիվ տվյալների հավաքագրում</div><div class="opt-price"><span class="opt-price-amount">+8000</span><span class="opt-price-currency">ՀՀ դրամ</span><span class="opt-price-tail">/ ամիս / օբյեկտ</span></div></div></a>
-<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7.5h12"></path><path d="M7 5h10v14H7z"></path><path d="M10 10h4"></path><path d="M10 13h4"></path><path d="M10 16h4"></path></svg></div><div class="opt-tag" data-i18n="opt5tag">Պահպանում</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt5n">Տեսագրությունների լրացուցիչ պահպանում</div><div class="opt-desc" data-i18n="opt5d">Լռելյայն ներառված է 7 օր։<br/>Յուրաքանչյուր լրացուցիչ օրը՝ 700 ՀՀ դրամ / օր / տեսախցիկ</div><div class="opt-price"><span class="opt-price-amount">+700</span><span class="opt-price-currency">ՀՀ դրամ</span><span class="opt-price-tail">/ օր / տեսախցիկ</span></div></div></a>
-<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14"></path><path d="M5 12h10"></path><path d="M5 16h12"></path><path d="M18 11v6"></path><path d="M15 14h6"></path></svg></div><div class="opt-tag" data-i18n="opt6tag">Ճկունություն</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt6n">Ճկուն երկարացում</div><div class="opt-desc" data-i18n="opt6d">Տեսագրությունների պահպանումը կարող է սահմանվել մինչ 90 օր</div><div class="opt-price"><span class="opt-price-amount">7 + N</span><span class="opt-price-tail">օր</span></div></div></a>
+<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6"></path><path d="M8 6h8v12H8z"></path><path d="M10 18h4"></path><path d="M12 9v4"></path><path d="M10 11h4"></path></svg></div><div class="opt-tag" data-i18n="opt1tag">Reliability</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt1n">Backup power (UPS)</div><div class="opt-desc" data-i18n="opt1d">Keeps the system operational during a power outage.</div><div class="opt-price"><span class="opt-price-label">From</span><span class="opt-price-amount">2000</span><span class="opt-price-currency">AMD</span><span class="opt-price-tail">/ month / site</span></div></div></a>
+<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12l3-3"></path><path d="M9 15l6-6"></path><path d="M7.5 16.5a6.5 6.5 0 0 1 0-9"></path><path d="M16.5 7.5a6.5 6.5 0 0 1 0 9"></path><path d="M4.5 19.5a10 10 0 0 1 0-15"></path><path d="M19.5 4.5a10 10 0 0 1 0 15"></path><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"></circle></svg></div><div class="opt-tag" data-i18n="opt2tag">Connectivity</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt2n">Backup internet (4G/5G)</div><div class="opt-desc" data-i18n="opt2d">If the primary internet connection fails, the system can switch to mobile connectivity.</div><div class="opt-price"><span class="opt-price-label">From</span><span class="opt-price-amount">1500</span><span class="opt-price-currency">AMD</span><span class="opt-price-tail">/ month / site</span></div></div></a>
+<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10v4"></path><path d="M9 8l5-3v14l-5-3H5z"></path><path d="M17 9a4 4 0 0 1 0 6"></path><path d="M18.5 6.5a7 7 0 0 1 0 11"></path></svg></div><div class="opt-tag" data-i18n="opt3tag">Deterrence</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt3n">Loudspeaker intervention</div><div class="opt-desc" data-i18n="opt3d">A live operator voice message for preventive intervention on site.</div><div class="opt-price"><span class="opt-price-amount">+4500</span><span class="opt-price-currency">AMD</span><span class="opt-price-tail">/ month / site</span></div></div></a>
+<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8l3 2v3l-3 2-3-2v-3z"></path><path d="M12 8V5"></path><path d="M15 10l2.6-1.5"></path><path d="M9 10L6.4 8.5"></path><path d="M15 13l2.6 1.5"></path><path d="M9 13l-2.6 1.5"></path><path d="M12 15v3"></path></svg></div><div class="opt-tag" data-i18n="opt4tag">Response</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt4n">Drone response</div><div class="opt-desc" data-i18n="opt4d">Aerial observation and rapid video capture when required.</div><div class="opt-price"><span class="opt-price-amount">+8000</span><span class="opt-price-currency">AMD</span><span class="opt-price-tail">/ month / site</span></div></div></a>
+<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7.5h12"></path><path d="M7 5h10v14H7z"></path><path d="M10 10h4"></path><path d="M10 13h4"></path><path d="M10 16h4"></path></svg></div><div class="opt-tag" data-i18n="opt5tag">Retention</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt5n">Additional storage days</div><div class="opt-desc" data-i18n="opt5d">The base plan includes 7 days.<br/>Each extra day costs 700 AMD / day / camera.</div><div class="opt-price"><span class="opt-price-amount">+700</span><span class="opt-price-currency">AMD</span><span class="opt-price-tail">/ day / camera</span></div></div></a>
+<a class="opt-card" href="#calculator"><div class="opt-top"><div class="opt-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14"></path><path d="M5 12h10"></path><path d="M5 16h12"></path><path d="M18 11v6"></path><path d="M15 14h6"></path></svg></div><div class="opt-tag" data-i18n="opt6tag">Flexibility</div></div><div class="opt-body"><div class="opt-name" data-i18n="opt6n">Flexible extension</div><div class="opt-desc" data-i18n="opt6d">You can define retention as 7+1, 7+2, 7+3, and so on, according to your needs.</div><div class="opt-price"><span class="opt-price-amount">7 + N</span><span class="opt-price-tail">days</span></div></div></a>
 </div>
 </div>
 <!-- CALCULATOR -->
 <div class="calc-wrap reveal" id="calculator">
 <div class="calc-hd">
 <svg fill="none" height="14" stroke="var(--teal)" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="14"><rect height="20" rx="2" width="16" x="4" y="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="8" x2="10" y1="10" y2="10"></line><line x1="14" x2="16" y1="10" y2="10"></line><line x1="8" x2="10" y1="14" y2="14"></line><line x1="14" x2="16" y1="14" y2="14"></line><line x1="8" x2="10" y1="18" y2="18"></line><line x1="14" x2="16" y1="18" y2="18"></line></svg>
-<span class="calc-hd-title" data-i18n="calc_title">Անհատական հաշվիչ — կազմեք ձեր փաթեթը</span>
+<span class="calc-hd-title" data-i18n="calc_title">Custom calculator - build your plan</span>
 </div>
 <div class="calc-bd">
 <div class="calc-left">
 <div class="calc-field centered">
-<span class="calc-lbl" data-i18n="calc_cams">Տեսախցիկների քանակ</span>
+<span class="calc-lbl" data-i18n="calc_cams">Number of cameras</span>
 <div class="stepper"><button onclick="chCam(-1)">−</button><input id="camN" max="32" min="1" onblur="commitCamValue(this.value)" oninput="handleCamInput(this.value)" type="number" value="1"/><button onclick="chCam(1)">+</button></div>
 </div>
 <div class="calc-field centered">
-<span class="calc-lbl" data-i18n="calc_period">Բաժանորդագրության ժամկետ</span>
+<span class="calc-lbl" data-i18n="calc_period">Subscription term</span>
 <div class="pill-group" id="periodPills">
-<button class="pill on" data-i18n="p12" onclick="chPeriod(12,this)">12 ամիս</button>
-<button class="pill" data-i18n="p6" onclick="chPeriod(6,this)">6 ամիս</button>
-<button class="pill" data-i18n="p3" onclick="chPeriod(3,this)">3 ամիս</button>
-<button class="pill" data-i18n="p1" onclick="chPeriod(1,this)">1 ամիս</button>
+<button class="pill on" data-i18n="p12" onclick="chPeriod(12,this)">12 months</button>
+<button class="pill" data-i18n="p6" onclick="chPeriod(6,this)">6 months</button>
+<button class="pill" data-i18n="p3" onclick="chPeriod(3,this)">3 months</button>
+<button class="pill" data-i18n="p1" onclick="chPeriod(1,this)">1 month</button>
 </div>
 </div>
 <div class="calc-field wide">
-<span class="calc-lbl" data-i18n="calc_addons">Լրացուցիչ ծառայություններ</span>
+<span class="calc-lbl" data-i18n="calc_addons">Additional options</span>
 <div class="calc-checks">
-<label class="calc-check nowrap"><input id="ck-net" onchange="updCalc()" type="checkbox"/> 📡 Ինտերնետ (+1,500/ամիս / օբյեկտ)</label>
-<label class="calc-check"><input id="ck-ups" onchange="updCalc()" type="checkbox"/> 🔋 Սնուցում (+2,000/ամիս / օբյեկտ)</label>
-<label class="calc-check"><input id="ck-spk" onchange="updCalc()" type="checkbox"/> 🔊 Բարձրախոս (+4,500/ամիս / օբյեկտ)</label>
-<label class="calc-check"><input id="ck-drn" onchange="updCalc()" type="checkbox"/> 🚁 ԱԹՍ (+8,000/ամիս / օբյեկտ)</label>
+<label class="calc-check nowrap"><input id="ck-net" onchange="updCalc()" type="checkbox"/> Internet backup (+1,500/month / site)</label>
+<label class="calc-check"><input id="ck-ups" onchange="updCalc()" type="checkbox"/> Power backup (+2,000/month / site)</label>
+<label class="calc-check"><input id="ck-spk" onchange="updCalc()" type="checkbox"/> Loudspeaker (+4,500/month / site)</label>
+<label class="calc-check"><input id="ck-drn" onchange="updCalc()" type="checkbox"/> Drone (+8,000/month / site)</label>
 </div>
 </div>
 <div class="calc-field wide">
-<span class="calc-lbl" data-i18n="calc_storage">Տեսագրությունների պահպանում</span>
-<div class="storage-note" data-i18n="calc_storagenote">Լռելյայն ներառված է 7 օր։<br/>Յուրաքանչյուր լրացուցիչ օրը՝ 700 ՀՀ դրամ / օր / տեսախցիկ</div>
+<span class="calc-lbl" data-i18n="calc_storage">Video retention</span>
+<div class="storage-note" data-i18n="calc_storagenote">The base plan includes 7 days.<br/>Each extra day costs 700 AMD / day / camera.</div>
 <div class="storage-stepper-wrap">
-<span class="storage-extra-label" data-i18n="calc_extradays">Լրացուցիչ օրեր</span>
+<span class="storage-extra-label" data-i18n="calc_extradays">Additional days</span>
 <div class="stepper"><button onclick="chStorageExtra(-1)">−</button><input id="extraDays" max="83" min="0" onblur="commitStorageExtraValue(this.value)" oninput="handleStorageExtraInput(this.value)" type="number" value="0"/><button onclick="chStorageExtra(1)">+</button></div>
-<span class="storage-extra-label"><span data-i18n="calc_total">Ընդամենը</span>: <strong id="totalStorageDays">7 օր</strong></span>
+<span class="storage-extra-label"><span data-i18n="calc_total">Total</span>: <strong id="totalStorageDays">7 days</strong></span>
 </div>
 </div>
 </div>
 <div class="calc-right">
-<div class="res-lbl" data-i18n="calc_per_cam">1 միավոր տեսախցիկի ամսական արժեք (ՀՀ դրամ / ամիս / տեսախցիկ)</div>
+<div class="res-lbl" data-i18n="calc_per_cam">Monthly rate - 1 camera</div>
 <div class="res-price" id="resPerCam">14,500</div>
-<div class="res-unit" data-i18n="calc_unit"></div>
+<div class="res-unit" data-i18n="calc_unit">AMD / month / camera</div>
 <div class="breakdown" id="bdwn">
-<div class="br-row"><span class="br-lbl" id="bd-base-lbl">Հիմ. փ. (1 · 12 ամ.)</span><span class="br-val" id="bd-base">14,500</span></div>
-<div class="br-row" id="bd-str-r" style="display:none"><span class="br-lbl" id="bd-str-l">+ Լ. պ. օ.</span><span class="br-val" id="bd-str-v">0</span></div>
-<div class="br-row" id="bd-ups-r" style="display:none"><span class="br-lbl">+ UPS (օբյեկտ)</span><span class="br-val">2,000</span></div>
-<div class="br-row" id="bd-net-r" style="display:none"><span class="br-lbl">+ Ինտերնետ (օբյեկտ)</span><span class="br-val">1,500</span></div>
-<div class="br-row" id="bd-spk-r" style="display:none"><span class="br-lbl">+ Բարձրախոս (օբյեկտ)</span><span class="br-val">4,500</span></div>
-<div class="br-row" id="bd-drn-r" style="display:none"><span class="br-lbl">+ ԱԹՍ (օբյեկտ)</span><span class="br-val">8,000</span></div>
-<div class="br-row"><span class="br-lbl" style="font-weight:700;color:var(--white)"><span data-i18n="calc_monthly">Ամսական ընդամենը՝</span></span><span class="br-val hi" id="bd-tot">14,500</span></div>
+<div class="br-row"><span class="br-lbl" id="bd-base-lbl">Base plan (1 x 12 mo.)</span><span class="br-val" id="bd-base">14,500</span></div>
+<div class="br-row" id="bd-str-r" style="display:none"><span class="br-lbl" id="bd-str-l">+ Storage</span><span class="br-val" id="bd-str-v">0</span></div>
+<div class="br-row" id="bd-ups-r" style="display:none"><span class="br-lbl">+ UPS (site)</span><span class="br-val">2,000</span></div>
+<div class="br-row" id="bd-net-r" style="display:none"><span class="br-lbl">+ Internet backup (site)</span><span class="br-val">1,500</span></div>
+<div class="br-row" id="bd-spk-r" style="display:none"><span class="br-lbl">+ Loudspeaker (site)</span><span class="br-val">4,500</span></div>
+<div class="br-row" id="bd-drn-r" style="display:none"><span class="br-lbl">+ Drone (site)</span><span class="br-val">8,000</span></div>
+<div class="br-row"><span class="br-lbl" style="font-weight:700;color:var(--white)"><span data-i18n="calc_monthly">Monthly total</span></span><span class="br-val hi" id="bd-tot">14,500</span></div>
 </div>
 <div id="calcNote" style="display:none;font-size:11px;color:var(--muted);margin-bottom:1rem"></div>
-<a class="res-cta" data-i18n="calc_cta" href="#contact-form">Պատվիրել → Կապ հաստատել</a>
+<a class="res-cta" data-i18n="calc_cta" href="#contact-form">Contact us →</a>
 </div>
 </div>
 </div>
@@ -567,46 +559,46 @@
 <div class="section-inner">
 <div class="why-grid">
 <div class="why-text reveal">
-<div class="eyebrow why-eyebrow"><span data-i18n="why_eyebrow_prefix">Ինչու</span> <span class="brand-split switchable-brand" id="whyBrandSwitch"><span class="brand-core" data-en="CORTEX" data-hy="ԿՈՐՏԵՔՍ">CORTEX</span> <span class="brand-mark" data-en="SENTINEL" data-hy="ՍԵՆԹԻՆԵԼ">SENTINEL</span></span></div>
-<h2 data-i18n="why_h2">Հայաստանում առաջին իրական «SOC» Կենտրոնը</h2>
+<div class="eyebrow why-eyebrow"><span data-i18n="why_eyebrow_prefix">Why</span> <span class="brand-split switchable-brand" id="whyBrandSwitch"><span class="brand-core" data-en="CORTEX">CORTEX</span> <span class="brand-mark" data-en="SENTINEL">SENTINEL</span></span></div>
+<h2 data-i18n="why_h2">Armenia's first operational remote SOC center</h2>
 <div class="why-desc-wrap">
-<div class="why-note" data-i18n="why_note">Ծառայությունը կազմակերպվում և իրականացվում է հստակ սահմանված գործառնական ու իրավական շրջանակում՝ ներառելով դիտարկման գոտիների սահմանումը, արձագանքման և կանխարգելման մեխանիզմները, ծանուցումների և ահազանգման ընթացակարգերը, տվյալների պահպանման կարգը և հաշվետվողականության ապահովումը</div>
+<div class="why-note" data-i18n="why_note">The service is structured within a clear operational and contractual framework: monitoring zones, response rules, retention, escalation, and reporting.</div>
 </div>
 <div class="why-summary">
-<div class="why-summary-card"><div class="why-summary-kicker" data-i18n="why_sum1k">արձագանք</div><div class="why-summary-value">1.4'</div><div class="why-summary-text" data-i18n="why_sum1d">«SLA»-ով արագ արձագանք</div></div>
-<div class="why-summary-card"><div class="why-summary-kicker" data-i18n="why_sum2k">պահպանում</div><div class="why-summary-value">7–90</div><div class="why-summary-text" data-i18n="why_sum2d">Պահպանում՝ մինչև 90 օր</div></div>
-<div class="why-summary-card"><div class="why-summary-kicker" data-i18n="why_sum3k">վերիֆիկացիա</div><div class="why-summary-value">Ա / Բ / Գ</div><div class="why-summary-text" data-i18n="why_sum3d">Գնահատում, դասակարգում, արձագանք</div></div>
+<div class="why-summary-card"><div class="why-summary-kicker" data-i18n="why_sum1k">response</div><div class="why-summary-value">1.4'</div><div class="why-summary-text" data-i18n="why_sum1d">Average response time is based on SLA logic and a predefined escalation path.</div></div>
+<div class="why-summary-card"><div class="why-summary-kicker" data-i18n="why_sum2k">retention</div><div class="why-summary-value">7–90</div><div class="why-summary-text" data-i18n="why_sum2d">Recordings and incident materials are retained under the contractual framework and remain available for export.</div></div>
+<div class="why-summary-card"><div class="why-summary-kicker" data-i18n="why_sum3k">verification</div><div class="why-summary-value">A/B/C</div><div class="why-summary-text" data-i18n="why_sum3d">Each alert is first verified and classified before it enters the full response chain.</div></div>
 </div>
 <div class="why-points">
-<div class="why-point"><div class="why-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 18 18"><path d="M9 2L15 5v5c0 4-3 7-6 8-3-1-6-4-6-8V5L9 2z"></path></svg></div><div class="why-point-body"><div class="why-point-top"><div class="why-point-title" data-i18n="w1t">Security-as-a-Service</div><div class="why-point-meta" data-i18n="w1m">24/7 «SOC»</div></div><div class="why-point-text" data-i18n="w1d">Բաժանորդագրային ծառայություն՝ առանց մեծ սկզբնական ծախսի</div></div></div>
-<div class="why-point"><div class="why-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 18 18"><path d="M3 9l4 4 8-8"></path></svg></div><div class="why-point-body"><div class="why-point-top"><div class="why-point-title" data-i18n="w3t">«AI» + օպերատոր</div><div class="why-point-meta" data-i18n="w3m">Ա / Բ / Գ դաս</div></div><div class="why-point-text" data-i18n="w3d">«AI» աջակցությամբ ֆիքսում է, օպերատորը գնահատում, դասակարգում և արձագանքում է</div></div></div>
-<div class="why-point"><div class="why-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 18 18"><path d="M3 5h12M3 9h12M3 13h8"></path><path d="M13 11l2 2 3-4"></path></svg></div><div class="why-point-body"><div class="why-point-top"><div class="why-point-title" data-i18n="w5t">Ծանուցում և էսկալացիա</div><div class="why-point-meta" data-i18n="w5m">զանգ / SMS / ոստիկանություն</div></div><div class="why-point-text" data-i18n="w5d">Նախապես սահմանված սցենարով իրականացվում է զանգ, կարճ հաղորդագրություն կամ էսկալացիա</div></div></div>
+<div class="why-point"><div class="why-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 18 18"><path d="M9 2L15 5v5c0 4-3 7-6 8-3-1-6-4-6-8V5L9 2z"></path></svg></div><div class="why-point-body"><div class="why-point-top"><div class="why-point-title" data-i18n="w1t">Security as a Service</div><div class="why-point-meta" data-i18n="w1m">24/7 SOC</div></div><div class="why-point-text" data-i18n="w1d">The service operates on a subscription model, without heavy capital expenditure or operational burden on the client.</div></div></div>
+<div class="why-point"><div class="why-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 18 18"><path d="M3 9l4 4 8-8"></path></svg></div><div class="why-point-body"><div class="why-point-top"><div class="why-point-title" data-i18n="w3t">AI + operator + verification</div><div class="why-point-meta" data-i18n="w3m">A / B / C class</div></div><div class="why-point-text" data-i18n="w3d">AI identifies risk, while the operator verifies and classifies the event to reduce false alerts and accelerate real response.</div></div></div>
+<div class="why-point"><div class="why-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 18 18"><path d="M3 5h12M3 9h12M3 13h8"></path><path d="M13 11l2 2 3-4"></path></svg></div><div class="why-point-body"><div class="why-point-top"><div class="why-point-title" data-i18n="w5t">Notification and escalation</div><div class="why-point-meta" data-i18n="w5m">call / SMS / police</div></div><div class="why-point-text" data-i18n="w5d">Notification order, authorized contacts, and external escalation are defined in advance and follow one clear scenario.</div></div></div>
 </div>
 </div>
 <div class="why-visual reveal">
 <div class="soc-display">
-<div class="soc-header"><span class="soc-kicker" data-i18n="soc_panel_kicker">Ինչպես է աշխատում իրական «SOC»-ը</span><span class="soc-time" id="liveTime">00:00:00</span></div>
+<div class="soc-header"><span class="soc-kicker" data-i18n="soc_panel_kicker">How a real SOC operates</span><span class="soc-time" id="liveTime">00:00:00</span></div>
 <div class="soc-flow">
 <div class="soc-step-card">
 <div class="soc-step-num">01</div>
-<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s1t">Հայտնաբերում</div><div class="soc-step-meta" data-i18n="soc_s1m">24/7 դիտարկում + «AI» </div></div><div class="soc-step-text" data-i18n="soc_s1d">24/7 դիտարկում և «AI» աջակցությամբ ֆիքսում</div></div>
+<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s1t">Detection</div><div class="soc-step-meta" data-i18n="soc_s1m">24/7 monitoring + AI</div></div><div class="soc-step-text" data-i18n="soc_s1d">The video stream is monitored 24/7, while AI and the operator identify suspicious movement, intrusion, or technical deviations.</div></div>
 </div>
 <div class="soc-step-card">
 <div class="soc-step-num">02</div>
-<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s2t">Վերիֆիկացիա</div><div class="soc-step-meta" data-i18n="soc_s2m">Ա / Բ / Գ դաս</div></div><div class="soc-step-text" data-i18n="soc_s2d">Իրադարձությունը ստուգվում, գնահատվում և դասակարգվում է</div></div>
+<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s2t">Verification</div><div class="soc-step-meta" data-i18n="soc_s2m">A / B / C class</div></div><div class="soc-step-text" data-i18n="soc_s2d">The operator reviews the video, determines whether the event is real or false, and classifies it by priority.</div></div>
 </div>
 <div class="soc-step-card">
 <div class="soc-step-num">03</div>
-<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s3t">Արձագանք</div><div class="soc-step-meta" data-i18n="soc_s3m">«SLA» + արձագանքում</div></div><div class="soc-step-text" data-i18n="soc_s3d">Գործարկվում է լուսաձայնային ազդանշան, բարձրախոսային և դրոնային արձագանք, զանգ, ահազանգ</div></div>
+<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s3t">Response</div><div class="soc-step-meta" data-i18n="soc_s3m">SLA + escalation</div></div><div class="soc-step-text" data-i18n="soc_s3d">A pre-agreed response chain is activated: phone call, SMS, loudspeaker, light-and-sound deterrence, or escalation when required.</div></div>
 </div>
 <div class="soc-step-card">
 <div class="soc-step-num">04</div>
-<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s4t">Պահպանում և հաշվետվություն</div><div class="soc-step-meta" data-i18n="soc_s4m">7–90 օր / արտահանում</div></div><div class="soc-step-text" data-i18n="soc_s4d">Տեսագրություններն ու իրադարձային մատյանները պահպանվում են և կարող են արտահանվել</div></div>
+<div class="soc-step-main"><div class="soc-step-top"><div class="soc-step-title" data-i18n="soc_s4t">Retention and reporting</div><div class="soc-step-meta" data-i18n="soc_s4m">7-90 days / export</div></div><div class="soc-step-text" data-i18n="soc_s4d">Video, stills, and the action history are retained under the contractual framework and remain available for later use.</div></div>
 </div>
 </div>
 <div class="soc-footer">
-<div class="soc-footer-top"><div class="soc-footer-title" data-i18n="soc_outcome_t">Արդյունք</div><div class="soc-footer-status" data-i18n="soc_outcome_s">մեկ միասնական շղթա</div></div>
-<div class="soc-footer-text" data-i18n="soc_outcome_d">Ոչ միայն տեսագրում, այլ նաև հայտնաբերում, ստուգում, գնահատում, արձագանք և կանխարգելում</div>
+<div class="soc-footer-top"><div class="soc-footer-title" data-i18n="soc_outcome_t">Outcome</div><div class="soc-footer-status" data-i18n="soc_outcome_s">one unified chain</div></div>
+<div class="soc-footer-text" data-i18n="soc_outcome_d">The client receives more than recording: detection, verification, response, and preservation of the full incident history within one service.</div>
 </div>
 </div>
 </div>
@@ -620,9 +612,9 @@
 <div class="contact-unified-glow"></div>
 <div class="contact-unified-inner">
 <div class="contact-unified-copy reveal">
-<div class="eyebrow" data-i18n="cf_eyebrow">Կապ հաստատել</div>
-<h2 class="contact-title" data-i18n="contact_unified_title">Պատրա՞ստ եք ստանալ իրական անվտանգություն</h2>
-<p class="contact-lead" data-i18n="contact_unified_desc">Անվճար խորհրդատվություն, օբյեկտի/տարածքի գնահատում և աջակցություն փաթեթի ճիշտ ընտրության հարցում</p>
+<div class="eyebrow" data-i18n="cf_eyebrow">Get in touch</div>
+<h2 class="contact-title" data-i18n="contact_unified_title">Ready for real security?</h2>
+<p class="contact-lead" data-i18n="contact_unified_desc">Free consultation, site assessment, and support in selecting the right package.</p>
 <div class="contact-inline-info">
 <div class="contact-inline-actions">
 <a class="contact-quick contact-quick-primary" href="tel:+37498770098">
@@ -634,22 +626,22 @@
 <span>info@cortexsentinel.am</span>
 </a>
 </div>
-<div class="contact-inline-address" data-i18n="contact_unified_address">Գրանցման հասցե՝ ՀՀ, ք. Վանաձոր, Տիգրան Մեծի 29-19 · Գործունեությունը՝ ՀՀ ողջ տարածքում · ՀՎՀՀ 06978495</div>
+<div class="contact-inline-address" data-i18n="contact_unified_address">Armenia, Lori Province, Vanadzor, 29-19 Tigran Mets - TIN 06978495</div>
 </div>
 </div>
 <div class="contact-unified-panel reveal">
 <div class="contact-unified-panel-head">
-<div class="form-title" data-i18n="form_title">Ուղարկեք հայտ</div>
-<div class="form-sub" data-i18n="form_sub">Լրացրեք դաշտերը, և մենք կապ կհաստատենք ձեզ հետ</div>
+<div class="form-title" data-i18n="form_title">Send a request</div>
+<div class="form-sub" data-i18n="form_sub">Fill in the fields and we will contact you.</div>
 </div>
 <form class="contact-unified-form" id="leadForm" novalidate>
 <div class="form-row">
 <div class="form-field">
-<label class="form-label" data-i18n="form_name">Անուն, ազգանուն *</label>
-<input autocomplete="name" class="form-input" data-i18n-ph="form_name_ph" id="leadName" name="name" placeholder="Անուն Ազգանուն" required="" type="text"/>
+<label class="form-label" data-i18n="form_name">Full name *</label>
+<input autocomplete="name" class="form-input" data-i18n-ph="form_name_ph" id="leadName" name="name" placeholder="John Smith" required="" type="text"/>
 </div>
 <div class="form-field">
-<label class="form-label" data-i18n="form_phone">Հեռախոսահամար *</label>
+<label class="form-label" data-i18n="form_phone">Phone *</label>
 <input autocomplete="tel" class="form-input" id="leadPhone" name="phone" placeholder="+374 XX XX XX XX" required="" type="tel"/>
 </div>
 </div>
@@ -659,21 +651,21 @@
 <input autocomplete="email" class="form-input" id="leadEmail" name="email" placeholder="you@example.com" type="email"/>
 </div>
 <div class="form-field">
-<label class="form-label" data-i18n="form_sub_label">Բաժանորդագրություն</label>
+<label class="form-label" data-i18n="form_sub_label">Subscription</label>
 <select class="form-select" id="leadSubscription" name="subscription">
-<option data-i18n="sel_choose" value="">— Ընտրել —</option>
-<option data-i18n="p12" value="12">12 ամիս</option>
-<option data-i18n="p6" value="6">6 ամիս</option>
-<option data-i18n="p3" value="3">3 ամիս</option>
-<option data-i18n="p1" value="1">1 ամիս</option>
+<option data-i18n="sel_choose" value="">-- Select --</option>
+<option data-i18n="p12" value="12">12 months</option>
+<option data-i18n="p6" value="6">6 months</option>
+<option data-i18n="p3" value="3">3 months</option>
+<option data-i18n="p1" value="1">1 month</option>
 </select>
 </div>
 </div>
 <div class="form-row">
 <div class="form-field">
-<label class="form-label" data-i18n="form_cams">Տեսախցիկների քանակ</label>
+<label class="form-label" data-i18n="form_cams">Number of cameras</label>
 <select class="form-select" id="leadCams" name="cameras">
-<option data-i18n="sel_choose" value="">— Ընտրել —</option>
+<option data-i18n="sel_choose" value="">-- Select --</option>
 <option value="1-2">1-2</option>
 <option value="3-5">3-5</option>
 <option value="6-10">6-10</option>
@@ -681,31 +673,31 @@
 </select>
 </div>
 <div class="form-field">
-<label class="form-label" data-i18n="form_obj">Օբյեկտ/տարածք</label>
+<label class="form-label" data-i18n="form_obj">Facility / area</label>
 <select class="form-select" id="leadObject" name="objectType">
-<option data-i18n="sel_choose" value="">— Ընտրել —</option>
-<option data-i18n="obj1" value="office">Գրասենյակ</option>
-<option data-i18n="obj2" value="shop">Խանութ</option>
-<option data-i18n="obj3" value="warehouse">Պահեստ</option>
-<option data-i18n="obj4" value="open-area">Բաց տարածք</option>
-<option data-i18n="obj5" value="house">Բնակելի տուն</option>
-<option data-i18n="obj6" value="other">Այլ</option>
+<option data-i18n="sel_choose" value="">-- Select --</option>
+<option data-i18n="obj1" value="office">Office</option>
+<option data-i18n="obj2" value="shop">Shop</option>
+<option data-i18n="obj3" value="warehouse">Warehouse</option>
+<option data-i18n="obj4" value="open-area">Open area</option>
+<option data-i18n="obj5" value="house">Residential house</option>
+<option data-i18n="obj6" value="other">Other</option>
 </select>
 </div>
 </div>
 <div class="form-row single">
 <div class="form-field">
-<label class="form-label" data-i18n="form_msg">Հաղորդագրություն (ըստ ցանկության)</label>
-<textarea class="form-textarea" data-i18n-ph="form_msg_ph" id="leadMessage" name="message" placeholder="Գրել մեկնաբանություն"></textarea>
+<label class="form-label" data-i18n="form_msg">Message (optional)</label>
+<textarea class="form-textarea" data-i18n-ph="form_msg_ph" id="leadMessage" name="message" placeholder="Write a comment"></textarea>
 </div>
 </div>
 <div aria-live="polite" class="form-status" hidden="" id="leadFormStatus" tabindex="-1">
-<div class="form-status-title" data-i18n="form_ready_title" id="leadFormStatusTitle">Ընտրեք կապ հաստատելու տարբերակը</div>
-<div class="form-status-text" data-i18n="form_ready_text" id="leadFormStatusText">Հայտը կարող եք ուղարկել WhatsApp հարթակի միջոցով, էլեկտրոնային փոստով կամ կարող եք պարզապես զանգահարել։</div>
+<div class="form-status-title" data-i18n="form_ready_title" id="leadFormStatusTitle">Choose how you want to contact us</div>
+<div class="form-status-text" data-i18n="form_ready_text" id="leadFormStatusText">You can send the request via WhatsApp, by email, or call us directly.</div>
 <div class="form-status-actions" id="leadFormStatusActions">
-<a class="form-status-btn" data-i18n="form_action_whatsapp" href="https://wa.me/37498770098" id="leadWhatsAppBtn" rel="noopener noreferrer" target="_blank">WhatsApp</a>
-<a class="form-status-btn secondary" data-i18n="form_action_email" href="mailto:info@cortexsentinel.am" id="leadEmailBtn">E-Mail</a>
-<a class="form-status-btn secondary" data-i18n="form_action_call" href="tel:+37498770098" id="leadCallBtn">Զանգահարել հիմա</a>
+<a class="form-status-btn" data-i18n="form_action_whatsapp" href="https://wa.me/37498770098" id="leadWhatsAppBtn" rel="noopener noreferrer" target="_blank">Open WhatsApp</a>
+<a class="form-status-btn secondary" data-i18n="form_action_email" href="mailto:info@cortexsentinel.am" id="leadEmailBtn">Open Email</a>
+<a class="form-status-btn secondary" data-i18n="form_action_call" href="tel:+37498770098" id="leadCallBtn">Call now</a>
 </div>
 </div>
 </form>
@@ -718,31 +710,31 @@
 <div class="footer-inner">
 <div class="footer-top">
 <div class="footer-brand">
-<div class="footer-logo"><img alt="Cortex Sentinel" onerror="this.style.display='none'" src="cortex_transparent.png"><span class="brand-split switchable-brand footer-brand-switch" id="footerBrandSwitch" style="font-size:.95rem"><span class="brand-core" data-en="CORTEX" data-hy="ԿՈՐՏԵՔՍ">CORTEX</span> <span class="brand-mark" data-en="SENTINEL" data-hy="ՍԵՆԹԻՆԵԼ">SENTINEL</span></span></img></div>
-<p class="footer-desc" data-i18n="footer_desc">«Cortex Sentinel» ՍՊԸ - հեռավար տեսահսկում, 24/7 մշտադիտարկում, «AI» վերլուծություն, արձագանքում, տեսագրությունների պահպանում</p>
+<div class="footer-logo"><img alt="Cortex Sentinel" onerror="this.style.display='none'" src="../cortex_transparent.png"><span class="brand-split switchable-brand footer-brand-switch" id="footerBrandSwitch" style="font-size:.95rem"><span class="brand-core" data-en="CORTEX">CORTEX</span> <span class="brand-mark" data-en="SENTINEL">SENTINEL</span></span></img></div>
+<p class="footer-desc" data-i18n="footer_desc">Cortex Sentinel LLC — remote video surveillance, 24/7 monitoring, AI analytics, response, and video retention</p>
 </div>
 <div>
-<div class="footer-col-title" data-i18n="nav_services">Ծառայություններ</div>
+<div class="footer-col-title" data-i18n="nav_services">Services</div>
 <ul class="footer-links footer-service-links">
-<li><a data-i18n="s1n" href="#services">24/7 հեռավար մշտադիտարկում</a></li>
-<li><a data-i18n="s2n" href="#services">«AI» աջակցություն</a></li>
-<li><a data-i18n="footer_service_light" href="#services">Լուսաձայնային արձագանք</a></li>
-<li><a data-i18n="s4n" href="#services">Բարձրախոսային արձագանք</a></li>
-<li><a data-i18n="s5n" href="#services">Դրոնային արձագանք</a></li>
-<li><a data-i18n="s6n" href="#services">Տվյալների գրառում և պահպանում</a></li>
+<li><a data-i18n="s1n" href="#services">24/7 remote monitoring</a></li>
+<li><a data-i18n="s2n" href="#services">AI support</a></li>
+<li><a data-i18n="footer_service_light" href="#services">Strobe and siren response</a></li>
+<li><a data-i18n="s4n" href="#services">Loudspeaker intervention</a></li>
+<li><a data-i18n="s5n" href="#services">Drone response</a></li>
+<li><a data-i18n="s6n" href="#services">Video logging and retention</a></li>
 </ul>
 </div>
 <div>
-<div class="footer-col-title" data-i18n="footer_quick_title">Արագ հղումներ</div>
+<div class="footer-col-title" data-i18n="footer_quick_title">Quick links</div>
 <ul class="footer-links">
-<li><a data-i18n="nav_how" href="#how">Ինչպես է աշխատում</a></li>
-<li><a data-i18n="pkg_eyebrow" href="#packages">Գնային առաջարկներ</a></li>
-<li><a class="footer-why-link" href="#why"><span data-i18n="why_eyebrow_prefix">Ինչու</span> <span class="brand-split switchable-brand footer-why-brand" id="footerWhyBrandSwitch"><span class="brand-core" data-en="CORTEX" data-hy="ԿՈՐՏԵՔՍ">CORTEX</span> <span class="brand-mark" data-en="SENTINEL" data-hy="ՍԵՆԹԻՆԵԼ">SENTINEL</span></span></a></li>
-<li><a data-i18n="footer_link_calculator" href="#calculator">Անհատական հաշվիչ</a></li>
+<li><a data-i18n="nav_how" href="#how">How it works</a></li>
+<li><a data-i18n="pkg_eyebrow" href="#packages">Pricing</a></li>
+<li><a class="footer-why-link" href="#why"><span data-i18n="why_eyebrow_prefix">Why</span> <span class="brand-split switchable-brand footer-why-brand" id="footerWhyBrandSwitch"><span class="brand-core" data-en="CORTEX">CORTEX</span> <span class="brand-mark" data-en="SENTINEL">SENTINEL</span></span></a></li>
+<li><a data-i18n="footer_link_calculator" href="#calculator">Custom calculator</a></li>
 </ul>
 </div>
 <div>
-<div class="footer-col-title" data-i18n="nav_contact">Կապ հաստատել</div>
+<div class="footer-col-title" data-i18n="nav_contact">Contact Us</div>
 <ul class="footer-links footer-contact-links">
 <li><a href="tel:+37498770098">+374 98 77 00 98</a></li>
 <li><a href="mailto:info@cortexsentinel.am">info@cortexsentinel.am</a></li>
@@ -750,8 +742,8 @@
 <li>
 <div class="footer-socials">
 <a class="footer-social-link" href="https://wa.me/37498770098" rel="noopener noreferrer" target="_blank">WhatsApp</a>
-<span class="footer-social-link is-disabled" title="Telegram-ի հղումը շուտով կլինի">Telegram</span>
-<span class="footer-social-link is-disabled" title="Instagram-ի հղումը շուտով կլինի">Instagram</span>
+<span class="footer-social-link is-disabled" title="Telegram link coming soon">Telegram</span>
+<span class="footer-social-link is-disabled" title="Instagram link coming soon">Instagram</span>
 <a class="footer-social-link" href="https://www.facebook.com/profile.php?id=61573481100981" rel="noopener noreferrer" target="_blank">Facebook</a>
 </div>
 </li>
@@ -759,25 +751,25 @@
 </div>
 </div>
 <div class="footer-bottom">
-<span class="footer-copy">© 2026 «Cortex Sentinel» ՍՊԸ · Բոլոր իրավունքները պաշտպանված են</span>
+<span class="footer-copy">&copy; 2026 Cortex Sentinel LLC · All rights reserved</span>
 <span class="footer-reqs">cortexsentinel.am</span>
 </div>
 </div>
 </footer>
 <script>
 window.CORTEX_SITE_CONFIG = {
-  lang: "hy",
-  localeBase: "",
+  lang: "en",
+  localeBase: "/en",
   crispWebsiteId: "7147eed4-9696-4050-b5cd-70cd8c548d3a",
   supportEmail: "info@cortexsentinel.am",
   phone: "+37498770098",
   whatsappNumber: "37498770098",
   localeBases: {"hy":"","en":"/en","ru":"/ru"},
   sectionRoutes: {"home":"/","services":"/services","packages":"/plans","how":"/howitworks","why":"/whycortex","contact-form":"/contact","calculator":"/calculator","options":"/options"},
-  langPaths: {"hy":"./index.html?v=1776365205128","en":"./en/index.html?v=1776365205128","ru":"./ru/index.html?v=1776365205128"}
+  langPaths: {"hy":"../index.html?v=1776365205128","en":"./index.html?v=1776365205128","ru":"../ru/index.html?v=1776365205128"}
 };
 </script>
-<script defer src="./assets/i18n/hy.js?v=1776365205128"></script>
-<script defer src="./assets/site.js?v=1776365205128"></script>
+<script defer src="../assets/i18n/en.js?v=1776365205128"></script>
+<script defer src="../assets/site.js?v=1776365205128"></script>
 </body>
 </html>
